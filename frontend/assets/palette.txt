@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/4f46e5-ffffff-222222-44a1a0-00bd9d */
+
+- Tailwind
+
+{ 'majorelle_blue': { DEFAULT: '#4f46e5', 100: '#0a0835', 200: '#140f69', 300: '#1d179e', 400: '#271ed3', 500: '#4f46e5', 600: '#736dea', 700: '#9691ef', 800: '#b9b6f5', 900: '#dcdafa' }, 'white': { DEFAULT: '#ffffff', 100: '#333333', 200: '#666666', 300: '#999999', 400: '#cccccc', 500: '#ffffff', 600: '#ffffff', 700: '#ffffff', 800: '#ffffff', 900: '#ffffff' }, 'eerie_black': { DEFAULT: '#222222', 100: '#070707', 200: '#0d0d0d', 300: '#141414', 400: '#1b1b1b', 500: '#222222', 600: '#4e4e4e', 700: '#7a7a7a', 800: '#a6a6a6', 900: '#d3d3d3' }, 'verdigris': { DEFAULT: '#44a1a0', 100: '#0e2020', 200: '#1b4140', 300: '#296160', 400: '#368180', 500: '#44a1a0', 600: '#61bdbb', 700: '#88cdcc', 800: '#b0dedd', 900: '#d7eeee' }, 'mint': { DEFAULT: '#00bd9d', 100: '#00261f', 200: '#004b3f', 300: '#00715e', 400: '#00977e', 500: '#00bd9d', 600: '#00fdd3', 700: '#3effdf', 800: '#7effea', 900: '#bffff4' } }
+
+- CSV
+
+4f46e5,ffffff,222222,44a1a0,00bd9d
+
+- With #
+
+#4f46e5, #ffffff, #222222, #44a1a0, #00bd9d
+
+- Array
+
+["4f46e5","ffffff","222222","44a1a0","00bd9d"]
+
+- Object
+
+{"Majorelle Blue":"4f46e5","White":"ffffff","Eerie black":"222222","Verdigris":"44a1a0","Mint":"00bd9d"}
+
+- Extended Array
+
+[{"name":"Majorelle Blue","hex":"4f46e5","rgb":[79,70,229],"cmyk":[66,69,0,10],"hsb":[243,69,90],"hsl":[243,75,59],"lab":[41,51,-79]},{"name":"White","hex":"ffffff","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Eerie black","hex":"222222","rgb":[34,34,34],"cmyk":[0,0,0,87],"hsb":[0,0,13],"hsl":[0,0,13],"lab":[13,0,0]},{"name":"Verdigris","hex":"44a1a0","rgb":[68,161,160],"cmyk":[58,0,1,37],"hsb":[179,58,63],"hsl":[179,41,45],"lab":[61,-27,-8]},{"name":"Mint","hex":"00bd9d","rgb":[0,189,157],"cmyk":[100,0,17,26],"hsb":[170,100,74],"hsl":[170,100,37],"lab":[69,-48,5]}]
+
+- XML
+
+<palette>
+  <color name="Majorelle Blue" hex="4f46e5" r="79" g="70" b="229" />
+  <color name="White" hex="ffffff" r="255" g="255" b="255" />
+  <color name="Eerie black" hex="222222" r="34" g="34" b="34" />
+  <color name="Verdigris" hex="44a1a0" r="68" g="161" b="160" />
+  <color name="Mint" hex="00bd9d" r="0" g="189" b="157" />
+</palette>

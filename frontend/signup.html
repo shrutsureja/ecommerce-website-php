@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signup page</title>
+  <link rel="stylesheet" href="output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex  max-h-full flex-col justify-center items-stretch sm:items-center px-6 py-12">
+    <div class="flex flex-col justify-center items-center">
+      <img class="w-20 h-20" src="./assets/logo1.png" alt="Your Company">
+      <h2 class="mt-10 text-2xl font-bold leading-9 tracking-tight text-gray-900">Create Account</h2>
+    </div>
+    <!-- form -->
+      <div class="flex flex-col gap-3 mt-8 sm:w-full sm:max-w-sm">
+        <div class="flex flex-col gap-1">
+          <label for="name" class="font-medium text-gray-900 text-sm">Enter your name:</label>
+          <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" type="text" placeholder="First and Last Name" required>
+        </div>
+        <div class="flex flex-col gap-1">
+          <label for="name" class="font-medium text-gray-900 text-sm">Enter your email-id:</label>
+          <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" type="email" placeholder="Email-id" required>
+        </div>
+        <div class="flex flex-col gap-1">
+          <label for="name" class="font-medium text-gray-900 text-sm">Password:</label>
+          <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" type="password" placeholder="Password" required>
+        </div>
+        <div class="flex flex-col gap-1">
+          <label for="name" class="font-medium text-gray-900 text-sm">Confirm Password:</label>
+          <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" type="password" placeholder="Confirm Password" required>
+        </div>
+        <div>
+          <button class="w-full bg-red-400 rounded-md py-1.5 font-semibold text-white mt-2">submit</button>
+        </div>
+        <p class="text-gray-500 text-sm">This is just a project demo website for dummy credientials <button onclick="dummyCredientials()" class="text-blue-600 underline">click here</button></p>
+      </div>
+  </div>
+  <script>
+    function dummyCredientials(){
+      alert("name: dummy\nemail: dummy@gmail.com\npassword: dummy");
+    }
+  </script>
+</body>
+</html>
