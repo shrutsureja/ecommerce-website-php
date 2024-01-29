@@ -8,7 +8,7 @@
   <title>Signin Page</title>
 </head>
 <body>
-  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+  <!-- <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
       <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
       <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
@@ -44,6 +44,25 @@
         Not a member?
         <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Start a 14 day free trial</a>
       </p>
+    </div>
+  </div> -->
+  <div class="flex max-h-screen flex-col justify-center items-stretch sm:items-center px-6 py-12">
+    <div class="flex flex-col justify-center items-center">
+      <img class="w-20 h-auto" src="/frontend/assets/logo1.png" alt="">
+      <h2 class="mt-10 text-2xl font-bold leading-9 text-gray-900 tracking-tighter">Sign in to your account</h2>
+    </div>
+
+    <div class="flex flex-col gap-3 sm:w-full sm:max-w-sm mt-8">
+      <div class="flex flex-col gap-1">
+        <label class="font-medium text-gray-900 text-sm" for="emailid">Enter your Email:</label>
+        <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" placeholder="Email-Id" type="email" required name="emailid" id="emailid">
+      </div>
+      <div class="flex flex-col gap-1">
+        <label class="font-medium text-gray-900 text-sm" for="pass">Enter your password:</label>
+        <input class="block w-full rounded-md border-[1.5px] p-2 border-gray-500 py-1.5 text-gray-900 shadow-sm placeholder:text-sm" placeholder="password" type="password" required name="pass" id="pass">
+      </div>
+      <button class="w-full bg-red-600 rounded-md py-1.5 font-semibold text-white mt-2">Sign In</button>
+      <p class="text-gray-500 text-sm">This is just a demo project.</p>
     </div>
   </div>
 </body>
